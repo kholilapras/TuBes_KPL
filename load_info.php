@@ -1,7 +1,6 @@
 <?php
 include "config/koneksi.php";
 
-// Ambil informasi dari tabel info_web
 $sql = "SELECT * FROM info_web";
 $result = $koneksi->query($sql);
 

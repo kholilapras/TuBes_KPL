@@ -15,14 +15,13 @@ function loadEnv($path)
     }
 }
 
-// Muat .env
 loadEnv(__DIR__ . '/../.env');
 
 // Ambil variabel dari environment
-$servername = getenv('DB_SERVER') ?: 'localhost';
-$username   = getenv('DB_USERNAME') ?: 'root';
-$password   = getenv('DB_PASSWORD') ?: '';
-$dbname     = getenv('DB_NAME') ?: 'WarungBakso';
+$servername = getenv('DB_SERVER');
+$username   = getenv('DB_USERNAME');
+$password   = getenv('DB_PASSWORD');
+$dbname     = getenv('DB_NAME');
 
 // Koneksi
 $koneksi = new mysqli($servername, $username, $password, $dbname);
