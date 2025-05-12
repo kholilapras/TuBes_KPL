@@ -30,5 +30,5 @@ $action = $_GET['action'] ?? '';
 if (isset($routes[$action])) {
     include $routes[$action];
 } else {
-    echo "Action tidak ditemukan atau tidak valid.";
+    echo "Action tidak ditemukan atau tidak valid.";
 }
