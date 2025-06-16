@@ -26,20 +26,6 @@
             <a href="page.php?page=gallery"><span class="material-symbols-outlined"> image </span>Gallery</a>
         </li>
         <h4>
-            <span>Kasir</span>
-            <div class="menu-separator"></div>
-        </h4>
-        <li>
-            <a href="page.php?page=daftar-menu"><span class="material-symbols-outlined"> brunch_dining </span>Menu Transaksi</a>
-        </li>
-        <li>
-            <a href="page.php?page=transaksi"><span class="material-symbols-outlined"> receipt_long </span>Transaksi</a>
-        </li>
-        <li>
-            <a href="page.php?page=laporan"><span class="material-symbols-outlined"> description </span>Laporan</a>
-        </li>
-
-        <h4>
             <span>Akun</span>
             <div class="menu-separator"></div>
         </h4>
